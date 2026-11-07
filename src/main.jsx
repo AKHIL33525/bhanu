@@ -1,5 +1,5 @@
 import React,{useState} from 'react';import{createRoot}from'react-dom/client';import{Heart,Volume2,VolumeX,ArrowLeft,ArrowRight,Music,Check,ChevronDown}from'lucide-react';import'./style.css';
-const data={from:'Akhil',to:'My Love',date:'2024-11-07',daysTogether:736,quotes:['In your smile, I found my peace.','In your love, I found my home.'],promises:['I’ll never go to bed angry.','I’ll love you on your worst days.','I’ll listen when you need me.','I’ll always make time for us.','I’ll choose you, every day.']};
+const data={from:'Bhanu',to:'Junnu',date:'2024-11-07',daysTogether:736,quotes:['In your smile, I found my peace.','In your love, I found my home.'],promises:['I’ll never go to bed angry.','I’ll love you on your worst days.','I’ll listen when you need me.','I’ll always make time for us.','I’ll choose you, every day.']};
 const stages=['letter','flowers','intro','heart','tree','door','photo','gallery','notes','envelope','promises','final'];
 function App(){const [s,S]=useState(0),[sound,SS]=useState(false),[revealed,SR]=useState(false),[checked,SC]=useState([]),[note,SN]=useState(false),[letter,SL]=useState(false),[scratches,ST]=useState(false),[lightbox,LB]=useState(null);
 const audioRef=React.useRef(null);
