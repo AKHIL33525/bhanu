@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');*{box-sizing:border-box}body{margin:0;background:#ffe7e4;color:#7e263a;font-family:'DM Sans',sans-serif}.site{min-height:100vh;max-width:500px;margin:auto;padding:12px 16px 25px;position:relative;overflow:hidden;background:linear-gradient(180deg,#fff1e8,#ffe7e9);box-shadow:0 0 40px #7b2d1a08}header{height:42px;display:flex;justify-content:space-between;align-items:center}header button{border:0;border-radius:25px;background:#fff7f2;color:#6e2638;padding:9px 12px;font-size:11px;display:flex;gap:4px;align-items:center}header .brand{font-size:9px;letter-spacing:1.5px;font-weight:700;background:#51182b;color:white;border-radius:20px;padding:9px 14px}.sound{width:32px;height:32px;justify-content:center;padding:0}.sound svg{width:15px}.progress{display:flex;align-items:center;gap:8px;margin:12px 0 16px;font-size:9px;color:#c07881}.progress>div{height:3px;background:#f6cbd0;flex:1;border-radius:5px}.progress i{display:block;height:100%;background:#d44c68;border-radius:5px}.landing,.center,.flowers,.darkroom,.galleryone,.gallery,.notes,.envelope-room,.promises,.final{min-height:calc(100vh - 140px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:15px 4px}.letter{background:#fffaf2;padding:26px 18px 20px;width:94%;box-shadow:0 10px 25px #9b55501a;transform:rotate(-1deg);border:1px solid #f4dfcf;position:relative}.letter small{font-size:9px;letter-spacing:1.5px}.letter h2{font:20px/1.55 'Playfair Display';color:#7e3541}.letter h2 b{color:#da4c69}.gift{font-size:35px;margin:20px}.letter p{font-family:'Playfair Display';font-style:italic}.pink{background:linear-gradient(110deg,#ed6787,#dc315d);border:0;border-radius:12px;color:white;padding:13px 22px;display:flex;align-items:center;gap:8px;justify-content:center;font-weight:700;font-size:12px;box-shadow:0 6px 15px #ce46622c;margin:20px auto 10px;cursor:pointer}.pink svg{width:15px}.micro,.tiny{font-size:9px;letter-spacing:1px;color:#b46b7c}.rosewall{font-size:35px;line-height:1.7;color:#d8496b}.flowers{background-image:radial-gradient(#f9d8d7 1px,transparent 1px);background-size:12px 12px}.center h1,.center h2,.gallery h2,.notes h2,.envelope-room h2,.promises h2,.final h1{font-family:'Playfair Display';font-weight:500}.center h1{font-size:36px}.center p{font-size:13px}.rose{font-size:50px}.cute{font-size:40px;margin:25px}.heartpage{background:radial-gradient(ellipse,#fff 0,#ffe6e6 60%,transparent 80%)}.glowheart{font-size:65px;filter:drop-shadow(0 0 25px #ff8399);animation:beat 1.4s infinite}@keyframes beat{50%{transform:scale(1.12)}}.treeart{position:relative;font-size:140px;line-height:1}.hearts{font-size:20px;position:absolute;top:20px;left:15%;right:15%;line-height:2}.tree h1{font-size:29px;color:#cf4261}.darkroom{background:radial-gradient(ellipse at center,#3a1b26,#150d16);color:#fff1d6;margin:0 -16px;padding:25px;min-height:calc(100vh - 140px)}.darkroom h1{font:30px 'Playfair Display';color:#ffe8c5}.door{width:190px;height:260px;border:3px solid #a77b45;border-radius:80px 80px 4px 4px;background:linear-gradient(90deg,#32101d,#5b2734,#2a101b);margin:25px auto;position:relative;box-shadow:0 0 25px #ffbd4c25;display:flex;align-items:center;justify-content:center;cursor:pointer}.doorlabel{border:1px solid #d1a45e;padding:18px;color:#f9dca5;font:18px 'Playfair Display'}.doorlabel small{font-size:9px}.door span{position:absolute;right:15px;top:50%;color:#f6bd53}.gold{background:#e7b65a;color:#3a1d20;border:0;padding:13px 24px;border-radius:10px;font-weight:bold}.dots{font-size:9px;letter-spacing:4px;color:#e75e7b;margin:14px}.galleryone,.gallery,.notes,.envelope-room,.promises,.final{background-image:radial-gradient(#f6c9d1 1px,transparent 1px);background-size:11px 11px}.portrait{width:85%;height:330px;border:9px solid #d5b16d;background:#fff4df;box-shadow:0 5px 15px #85482b20;position:relative;display:grid;place-items:center;margin:15px}.portrait img{position:absolute;width:100%;height:100%;object-fit:cover}.ph{color:#a37b4a;font-size:12px}.caption{background:#d7b46e;color:#5c3b22;width:85%;padding:12px;display:flex;flex-direction:column;gap:5px}.caption small{font-size:8px;letter-spacing:1px}.gallery h2,.notes h2,.envelope-room h2,.promises h2{font-size:26px}.gallery em,.notes em,.promises em{color:#d9496b}.gridphotos{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;width:100%;margin:15px 0}.mini-photo{height:125px;background:#f8d4d4;border:4px solid #fff;box-shadow:0 2px 5px #813a2910;display:grid;place-items:center;position:relative;font-size:11px;color:#a66c74;overflow:hidden}.mini-photo img{position:absolute;width:100%;height:100%;object-fit:cover}.mini-photo span{z-index:0}.controls{display:flex;gap:8px}.controls button{border:1px solid #f0b4c0;background:#fff7f6;color:#b83d5a;padding:9px 12px;border-radius:20px;font-size:11px}.note{background:#fff4d9;border:1px solid #f4d4ae;padding:24px;width:90%;min-height:190px;box-shadow:0 5px 15px #8d4b1b12;margin:20px}.note small{letter-spacing:2px}.note h3{font:22px 'Playfair Display'}.note span{font-size:25px}.envelope{height:200px;width:90%;max-width:350px;background:linear-gradient(135deg,#c18b48,#e5bb70);position:relative;margin:30px auto;cursor:pointer;box-shadow:0 8px 20px #8a4a2924}.flap{position:absolute;top:0;left:0;right:0;height:0;border-left:160px solid transparent;border-right:160px solid transparent;border-top:115px solid #e8c27e}.seal{position:absolute;top:45%;left:calc(50% - 20px);width:40px;height:40px;border-radius:50%;background:#e65c7c;color:white;display:grid;place-items:center;z-index:3}.letterinside{position:absolute;inset:8px;background:#fff8ed;padding:20px;font:14px/1.5 'Playfair Display';z-index:5;overflow:auto}.promise-box{width:95%;background:#fff8e9;padding:18px;text-align:left;border:1px solid #efc9a7;box-shadow:0 5px 12px #8a4a2011}.promise-box h3{text-align:center;font:22px 'Playfair Display'}.promise-box>small{display:block;text-align:center;font-size:8px;letter-spacing:1px;margin-bottom:15px}.promise-box label{display:flex;align-items:center;gap:9px;border-bottom:1px solid #f1dcc7;padding:12px 0;font-size:11px}.promise-box input{accent-color:#d64c69}.stamp{color:#d34b65;border:1px dashed #d34b65;padding:7px;text-align:center;font-size:10px;margin:12px auto;width:60%;transform:rotate(-5deg)}.finalcard{width:100%;background:#fff8f5;border:1px dashed #eeb5c2;border-radius:12px;padding:20px;color:#d04c69}.finalcard small{letter-spacing:2px;font-size:10px}.finalcard h1{font-size:24px}.finalcard strong{font:58px 'Playfair Display';display:block}.finalcard p{font-size:10px;letter-spacing:1px}.heartline{font-size:22px}.finalcard blockquote{font:italic 16px 'Playfair Display'}.bigheart{font-size:28px}.finalmsg{background:#fff5ed;padding:15px;margin:15px 0;border-radius:10px}.finalmsg h3{font:20px 'Playfair Display'}.again{border:0;background:none;color:#b95c70;font-size:11px}footer{text-align:center;font-size:9px;color:#bd7c8a;margin:20px 0 0;letter-spacing:1px}@media(min-width:520px){.site{margin:20px auto;border-radius:20px;min-height:calc(100vh - 40px)}}
+/* refined romantic motion */
+html{scroll-behavior:smooth}
+.site{animation:siteIn .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes siteIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.site section{animation:sectionIn .75s cubic-bezier(.16,1,.3,1) both}
+@keyframes sectionIn{0%{opacity:0;transform:translateY(18px) scale(.985);filter:blur(3px)}100%{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+.site:before{content:"";pointer-events:none;position:fixed;inset:0;z-index:20;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E")}
+.landing .letter{animation:letterFloat 4s ease-in-out infinite;transform-origin:center}
+@keyframes letterFloat{0%,100%{transform:rotate(-1deg) translateY(0)}50%{transform:rotate(.7deg) translateY(-7px)}}
+.gift{animation:giftPulse 2.2s ease-in-out infinite}
+@keyframes giftPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12) rotate(-4deg)}}
+.rose{animation:roseSway 3s ease-in-out infinite;transform-origin:bottom}
+@keyframes roseSway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.rosewall{animation:fadeGlow 2.5s ease-in-out infinite alternate}
+@keyframes fadeGlow{from{filter:drop-shadow(0 0 0 #ff98aa)}to{filter:drop-shadow(0 0 12px #ff98aa)}}
+.glowheart{animation:heartBeat 1.4s ease-in-out infinite}
+@keyframes heartBeat{0%,100%{transform:scale(1)}15%{transform:scale(1.16)}30%{transform:scale(1)}45%{transform:scale(1.1)}}
+.treeart{animation:treeFloat 5s ease-in-out infinite}
+@keyframes treeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.door{transition:transform .5s,box-shadow .5s;animation:doorGlow 3s ease-in-out infinite alternate}
+.door:hover{transform:scale(1.035);box-shadow:0 0 38px #ffbd4c55}
+@keyframes doorGlow{from{box-shadow:0 0 12px #ffbd4c15}to{box-shadow:0 0 28px #ffbd4c45}}
+.portrait,.mini-photo,.note,.promise-box,.finalcard{transition:transform .3s ease,box-shadow .3s}
+.portrait:hover,.mini-photo:hover,.note:hover,.promise-box:hover,.finalcard:hover{transform:translateY(-4px);box-shadow:0 12px 25px #8a3c3018}
+.mini-photo img{transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.mini-photo:hover img{transform:scale(1.08)}
+.note{animation:noteWiggle 6s ease-in-out infinite;transform-origin:center}
+.note:hover{animation:none;transform:rotate(-1deg) scale(1.02)}
+@keyframes noteWiggle{0%,100%{transform:rotate(-.5deg)}50%{transform:rotate(.5deg)}}
+.envelope{transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .4s}
+.envelope:hover{transform:translateY(-5px) rotate(-1deg);box-shadow:0 14px 28px #8a4a2930}
+.flap{transition:transform .5s;transform-origin:top}
+.envelope.open .flap{transform:rotateX(180deg);opacity:.2}
+.letterinside{animation:letterReveal .6s cubic-bezier(.16,1,.3,1)}
+@keyframes letterReveal{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+.promise-box label{transition:background .2s,padding .2s}
+.promise-box label:has(input:checked){background:#fff0f3;color:#c54160;padding-left:7px}
+.promise-box input{width:16px;height:16px;cursor:pointer}
+.finalcard{animation:finalRise 1s cubic-bezier(.16,1,.3,1) both}
+@keyframes finalRise{from{opacity:0;transform:translateY(20px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+.bigheart{animation:heartBeat 1.4s infinite;filter:drop-shadow(0 0 8px #fa9aaa)}
+.pink,.gold,header button,.controls button,.again{transition:transform .2s ease,filter .2s,box-shadow .2s}
+.pink:hover,.gold:hover{transform:translateY(-2px) scale(1.02);filter:saturate(1.15);box-shadow:0 10px 20px #ce46623b}
+.pink:active,.gold:active{transform:scale(.97)}
+.progress i{transition:width .5s cubic-bezier(.2,.8,.2,1)}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* premium polish: soft particles, photo reveals, elegant lightbox */
+.site{isolation:isolate}
+.floating-hearts{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:0;height:100%;opacity:.55}
+.floating-hearts span{position:absolute;left:calc((var(--i)*9.5%) + 2%);top:105%;font-size:calc(12px + (var(--i)%3)*6px);color:#e887a0;animation:floatUp calc(12s + var(--i)*1.4s) linear infinite;animation-delay:calc(var(--i)*-1.7s);filter:drop-shadow(0 2px 4px #e7a4b455)}
+@keyframes floatUp{0%{transform:translateY(0) rotate(0deg);opacity:0}10%{opacity:.7}80%{opacity:.4}100%{transform:translateY(-115vh) rotate(30deg);opacity:0}}
+.site>section,.site>header,.site>.progress,.site>footer{position:relative;z-index:1}
+.covered{background:linear-gradient(135deg,#f9dce2,#eab2c1)!important}
+.covered img{filter:blur(9px) brightness(.8);transform:scale(1.12)}
+.covered span{background:#fff7f1cc;color:#a13c5a;border-radius:20px;padding:7px 9px;z-index:2;font-weight:600;box-shadow:0 2px 9px #9d4a511c}
+.mini-photo{border:4px solid white;cursor:pointer;font-family:inherit}
+.lightbox{position:fixed;inset:0;z-index:99;background:#180d18ed;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;animation:lightIn .25s ease}
+.lightbox img{max-width:95%;max-height:78vh;object-fit:contain;border:7px solid #fff7f0;border-radius:5px;box-shadow:0 15px 50px #0005}
+.lightbox p{color:#ffe4e8;font-size:12px;letter-spacing:1px}
+.close-lightbox{position:absolute;top:18px;right:20px;background:#fff1f3;border:0;border-radius:50%;width:40px;height:40px;font-size:25px;color:#8a2442}
+@keyframes lightIn{from{opacity:0}to{opacity:1}}
+.site button:focus-visible{outline:3px solid #e67894;outline-offset:3px}
+
+/* final screen: refined anniversary card, no promotional CTA */
+.final{padding-top:20px;padding-bottom:30px;position:relative}
+.final>.tiny{font-size:11px;letter-spacing:3px;color:#b65c76;margin-bottom:20px}
+.finalcard{border:1px solid #f0c7ce;outline:1px dashed #e8b4c0;outline-offset:-9px;border-radius:22px;background:linear-gradient(155deg,#fffaf6 0%,#fff5f1 55%,#fff9f6 100%);padding:38px 22px 30px;box-shadow:0 18px 40px #9b43501a,inset 0 1px #fff;position:relative}
+.finalcard:before,.finalcard:after{content:"✦";position:absolute;color:#e7a4b4;font-size:14px;opacity:.7}
+.finalcard:before{top:20px;left:22px}.finalcard:after{top:20px;right:22px}
+.finalcard small{font-size:10px;letter-spacing:3px;color:#b35b75}
+.finalcard h1{font-family:'Playfair Display',serif;font-size:clamp(25px,6vw,34px);line-height:1.4;margin:28px 0 24px;color:#9e3b59}
+.finalcard h1 svg{color:#c94061;vertical-align:middle;filter:drop-shadow(0 4px 6px #d86c8025)}
+.finalcard strong{font-size:clamp(78px,20vw,100px);line-height:1;color:#c84968;letter-spacing:-3px;text-shadow:0 3px 0 #f8d5dc;margin:6px 0 12px}
+.finalcard>p:first-of-type{letter-spacing:2px;font-size:11px;color:#a75a70;margin:16px 0 28px}
+.finalcard .heartline{font-size:25px;letter-spacing:7px;color:#c75a76;margin:15px 0 28px}
+.finalcard blockquote{font-size:clamp(20px,5vw,25px);line-height:1.55;color:#b44e6a;margin:0 auto 24px;max-width:330px}
+.finalcard>p:last-of-type{font-size:12px;letter-spacing:1px;line-height:1.8;color:#a96377;margin:0}
+.finalcard .bigheart{font-size:46px;margin-top:26px;filter:drop-shadow(0 5px 12px #e15b753b)}
+.finalmsg{width:calc(100% - 18px);margin:24px 9px 18px;padding:28px 18px;background:linear-gradient(135deg,#fff8ef,#fff3e9);border:1px solid #f8dfd0;border-radius:18px;box-shadow:0 8px 24px #9b4d2c0c}
+.finalmsg h3{font-size:25px;line-height:1.4;color:#7c2e42;margin:0 0 12px}
+.finalmsg p{font-size:14px;line-height:1.8;color:#8f4658;margin:0}
+.final .again{padding:10px 15px;border-radius:30px;color:#b7657d;background:#fff8f4;border:1px solid #f2d3d8;transition:all .25s}
+.final .again:hover{background:#fff;transform:translateY(-2px);box-shadow:0 5px 14px #a44b5b12}
+.final footer{margin-top:25px;letter-spacing:2px}
+@media(max-width:380px){.finalcard{padding:30px 16px 24px}.finalmsg h3{font-size:21px}}
+
+/* Personal photo collection */
+.gallery .gridphotos{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.gallery .mini-photo{height:clamp(170px,48vw,240px);border:5px solid #fffaf7;border-radius:9px;box-shadow:0 7px 20px #6c26301c;transition:transform .25s,box-shadow .25s}
+.gallery .mini-photo:nth-child(3n+1){transform:rotate(-1deg)}
+.gallery .mini-photo:nth-child(3n+2){transform:rotate(1deg)}
+.gallery .mini-photo:active{transform:scale(.97)}
+.gallery .mini-photo img{object-fit:cover;object-position:center}
+.gallery .mini-photo.covered img{filter:blur(13px) brightness(.82);transform:scale(1.08);transition:filter .5s}
+.gallery .mini-photo.covered span{color:#fff;text-shadow:0 2px 8px #4c1826;letter-spacing:1px;font-size:11px}
+.gallery .mini-photo:not(.covered) span{display:none}
+.portrait{overflow:hidden;border-radius:8px}
+.portrait img{object-position:center}
+@media(min-width:600px){.gallery .gridphotos{grid-template-columns:repeat(3,minmax(0,1fr))}.gallery .mini-photo{height:230px}}
